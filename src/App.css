@@ -4,3 +4,64 @@
   padding: 2rem;
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a,
+p a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 179, 0);
+}
+
+
+button {
+  all: unset;
+  border: 1px inset rgb(255, 179, 0);
+  border-radius: .5rem;
+  outline-color: grey;
+  outline-width: 99px;
+  padding: 7px;
+  color: rgb(255, 179, 0);
+
+}
+
+main {
+  width: auto;
+  height: 50vh;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+
+  .loginTitle {
+    color: rgb(218, 158, 85);
+  }
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px groove white;
+    border-radius: 3rem;
+    padding: 22px;
+    align-items: center;
+    row-gap: 20px;
+
+    label {
+      color: rgb(176, 111, 121);
+    }
+
+    input {
+      border-color: rgb(176, 111, 121);
+    }
+
+  }
+
+
+}
